@@ -1,0 +1,19 @@
+{
+  "name": "poke-rest",
+  "version": "1.0.0",
+  "description": "Pokebreeder REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroLimaeSilva/pokeREST.git"
+  },
+  "author": "Pedro Lima e Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroLimaeSilva/pokeREST/issues"
+  },
+  "homepage": "https://github.com/pedroLimaeSilva/pokeREST#readme"
+}
