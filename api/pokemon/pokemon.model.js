@@ -1,5 +1,9 @@
 var mongoose = require('mongoose');
 
+function genRandIVs() {
+    return Math.ceil((Math.random()*15));
+}
+
 var PokemonSchema = new mongoose.Schema({
     dex: {
         type: String,
@@ -34,20 +38,56 @@ var PokemonSchema = new mongoose.Schema({
         default: 0
     },
     IVs: {
-        ATK: 0,
-        HP: 0,
-        DEF: 0,
-        SPD: 0,
-        SDE: 0,
-        SAT: 0,
+        ATK: {
+            type: Number,
+            default: genRandIVs
+        },
+        HP: {
+            type: Number,
+            default: genRandIVs
+        },
+        DEF: {
+            type: Number,
+            default: genRandIVs
+        },
+        SPD: {
+            type: Number,
+            default: genRandIVs
+        },
+        SDE: {
+            type: Number,
+            default: genRandIVs
+        },
+        SAT: {
+            type: Number,
+            default: genRandIVs
+        }
     },
     EVs: {
-        ATK: 0,
-        HP: 0,
-        DEF: 0,
-        SPD: 0,
-        SDE: 0,
-        SAT: 0,
+        ATK: {
+            type: Number,
+            default: 0
+        },
+        HP: {
+            type: Number,
+            default: 0
+        },
+        DEF: {
+            type: Number,
+            default: 0
+        },
+        SPD: {
+            type: Number,
+            default: 0
+        },
+        SDE: {
+            type: Number,
+            default: 0
+        },
+        SAT: {
+            type: Number,
+            default: 0
+        }
     },
     created_date: {
         type: Date,

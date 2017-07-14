@@ -1,0 +1,1099 @@
+[
+    {
+        "dex": 1,
+        "name": "Bulbasaur",
+        "groups": [
+            "Monster",
+            "Grass"
+        ]
+    },
+    {
+        "dex": 2,
+        "name": "Ivysaur",
+        "groups": [
+            "Monster",
+            "Grass"
+        ]
+    },
+    {
+        "dex": 3,
+        "name": "Venusaur",
+        "groups": [
+            "Monster",
+            "Grass"
+        ]
+    },
+    {
+        "dex": 4,
+        "name": "Charmander",
+        "groups": [
+            "Monster",
+            "Dragon"
+        ]
+    },
+    {
+        "dex": 5,
+        "name": "Charmeleon",
+        "groups": [
+            "Monster",
+            "Dragon"
+        ]
+    },
+    {
+        "dex": 6,
+        "name": "Charizard",
+        "groups": [
+            "Monster",
+            "Dragon"
+        ]
+    },
+    {
+        "dex": 7,
+        "name": "Squirtle",
+        "groups": [
+            "Monster",
+            "Water 1"
+        ]
+    },
+    {
+        "dex": 8,
+        "name": "Wartortle",
+        "groups": [
+            "Monster",
+            "Water 1"
+        ]
+    },
+    {
+        "dex": 9,
+        "name": "Blastoise",
+        "groups": [
+            "Monster",
+            "Water 1"
+        ]
+    },
+    {
+        "dex": 10,
+        "name": "Caterpie",
+        "groups": [
+            "Bug"
+        ]
+    },
+    {
+        "dex": 11,
+        "name": "Metapod",
+        "groups": [
+            "Bug"
+        ]
+    },
+    {
+        "dex": 12,
+        "name": "Butterfree",
+        "groups": [
+            "Bug"
+        ]
+    },
+    {
+        "dex": 13,
+        "name": "Weedle",
+        "groups": [
+            "Bug"
+        ]
+    },
+    {
+        "dex": 14,
+        "name": "Kakuna",
+        "groups": [
+            "Bug"
+        ]
+    },
+    {
+        "dex": 15,
+        "name": "Beedrill",
+        "groups": [
+            "Bug"
+        ]
+    },
+    {
+        "dex": 16,
+        "name": "Pidgey",
+        "groups": [
+            "Flying"
+        ]
+    },
+    {
+        "dex": 17,
+        "name": "Pidgeotto",
+        "groups": [
+            "Flying"
+        ]
+    },
+    {
+        "dex": 18,
+        "name": "Pidgeot",
+        "groups": [
+            "Flying"
+        ]
+    },
+    {
+        "dex": 19,
+        "name": "Rattata",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 20,
+        "name": "Raticate",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 21,
+        "name": "Spearow",
+        "groups": [
+            "Flying"
+        ]
+    },
+    {
+        "dex": 22,
+        "name": "Fearow",
+        "groups": [
+            "Flying"
+        ]
+    },
+    {
+        "dex": 23,
+        "name": "Ekans",
+        "groups": [
+            "Field",
+            "Dragon"
+        ]
+    },
+    {
+        "dex": 24,
+        "name": "Arbok",
+        "groups": [
+            "Field",
+            "Dragon"
+        ]
+    },
+    {
+        "dex": 25,
+        "name": "Pikachu",
+        "groups": [
+            "Field",
+            "Fairy"
+        ]
+    },
+    {
+        "dex": 26,
+        "name": "Raichu",
+        "groups": [
+            "Field",
+            "Fairy"
+        ]
+    },
+    {
+        "dex": 27,
+        "name": "Sandshrew",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 28,
+        "name": "Sandslash",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 29,
+        "name": "Nidoran♀",
+        "groups": [
+            "Monster",
+            "Field"
+        ]
+    },
+    {
+        "dex": 30,
+        "name": "Nidorina",
+        "groups": [
+            "Undiscovered"
+        ]
+    },
+    {
+        "dex": 31,
+        "name": "Nidoqueen",
+        "groups": [
+            "Undiscovered"
+        ]
+    },
+    {
+        "dex": 32,
+        "name": "Nidoran♂",
+        "groups": [
+            "Monster",
+            "Field"
+        ]
+    },
+    {
+        "dex": 33,
+        "name": "Nidorino",
+        "groups": [
+            "Monster",
+            "Field"
+        ]
+    },
+    {
+        "dex": 34,
+        "name": "Nidoking",
+        "groups": [
+            "Monster",
+            "Field"
+        ]
+    },
+    {
+        "dex": 35,
+        "name": "Clefairy",
+        "groups": [
+            "Fairy"
+        ]
+    },
+    {
+        "dex": 36,
+        "name": "Clefable",
+        "groups": [
+            "Fairy"
+        ]
+    },
+    {
+        "dex": 37,
+        "name": "Vulpix",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 38,
+        "name": "Ninetales",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 39,
+        "name": "Jigglypuff",
+        "groups": [
+            "Fairy"
+        ]
+    },
+    {
+        "dex": 40,
+        "name": "Wigglytuff",
+        "groups": [
+            "Fairy"
+        ]
+    },
+    {
+        "dex": 41,
+        "name": "Zubat",
+        "groups": [
+            "Flying"
+        ]
+    },
+    {
+        "dex": 42,
+        "name": "Golbat",
+        "groups": [
+            "Flying"
+        ]
+    },
+    {
+        "dex": 43,
+        "name": "Oddish",
+        "groups": [
+            "Grass"
+        ]
+    },
+    {
+        "dex": 44,
+        "name": "Gloom",
+        "groups": [
+            "Grass"
+        ]
+    },
+    {
+        "dex": 45,
+        "name": "Vileplume",
+        "groups": [
+            "Grass"
+        ]
+    },
+    {
+        "dex": 46,
+        "name": "Paras",
+        "groups": [
+            "Bug",
+            "Grass"
+        ]
+    },
+    {
+        "dex": 47,
+        "name": "Parasect",
+        "groups": [
+            "Bug",
+            "Grass"
+        ]
+    },
+    {
+        "dex": 48,
+        "name": "Venonat",
+        "groups": [
+            "Bug"
+        ]
+    },
+    {
+        "dex": 49,
+        "name": "Venomoth",
+        "groups": [
+            "Bug"
+        ]
+    },
+    {
+        "dex": 50,
+        "name": "Diglett",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 51,
+        "name": "Dugtrio",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 52,
+        "name": "Meowth",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 53,
+        "name": "Persian",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 54,
+        "name": "Psyduck",
+        "groups": [
+            "Water 1",
+            "Field"
+        ]
+    },
+    {
+        "dex": 55,
+        "name": "Golduck",
+        "groups": [
+            "Water 1",
+            "Field"
+        ]
+    },
+    {
+        "dex": 56,
+        "name": "Mankey",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 57,
+        "name": "Primeape",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 58,
+        "name": "Growlithe",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 59,
+        "name": "Arcanine",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 60,
+        "name": "Poliwag",
+        "groups": [
+            "Water 1"
+        ]
+    },
+    {
+        "dex": 61,
+        "name": "Poliwhirl",
+        "groups": [
+            "Water 1"
+        ]
+    },
+    {
+        "dex": 62,
+        "name": "Poliwrath",
+        "groups": [
+            "Water 1"
+        ]
+    },
+    {
+        "dex": 63,
+        "name": "Abra",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 64,
+        "name": "Kadabra",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 65,
+        "name": "Alakazam",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 66,
+        "name": "Machop",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 67,
+        "name": "Machoke",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 68,
+        "name": "Machamp",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 69,
+        "name": "Bellsprout",
+        "groups": [
+            "Grass"
+        ]
+    },
+    {
+        "dex": 70,
+        "name": "Weepinbell",
+        "groups": [
+            "Grass"
+        ]
+    },
+    {
+        "dex": 71,
+        "name": "Victreebel",
+        "groups": [
+            "Grass"
+        ]
+    },
+    {
+        "dex": 72,
+        "name": "Tentacool",
+        "groups": [
+            "Water 3"
+        ]
+    },
+    {
+        "dex": 73,
+        "name": "Tentacruel",
+        "groups": [
+            "Water 3"
+        ]
+    },
+    {
+        "dex": 74,
+        "name": "Geodude",
+        "groups": [
+            "Mineral"
+        ]
+    },
+    {
+        "dex": 75,
+        "name": "Graveler",
+        "groups": [
+            "Mineral"
+        ]
+    },
+    {
+        "dex": 76,
+        "name": "Golem",
+        "groups": [
+            "Mineral"
+        ]
+    },
+    {
+        "dex": 77,
+        "name": "Ponyta",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 78,
+        "name": "Rapidash",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 79,
+        "name": "Slowpoke",
+        "groups": [
+            "Monster",
+            "Water 1"
+        ]
+    },
+    {
+        "dex": 80,
+        "name": "Slowbro",
+        "groups": [
+            "Monster",
+            "Water 1"
+        ]
+    },
+    {
+        "dex": 81,
+        "name": "Magnemite",
+        "groups": [
+            "Mineral"
+        ]
+    },
+    {
+        "dex": 82,
+        "name": "Magneton",
+        "groups": [
+            "Mineral"
+        ]
+    },
+    {
+        "dex": 83,
+        "name": "Farfetch'd",
+        "groups": [
+            "Flying",
+            "Field"
+        ]
+    },
+    {
+        "dex": 84,
+        "name": "Doduo",
+        "groups": [
+            "Flying"
+        ]
+    },
+    {
+        "dex": 85,
+        "name": "Dodrio",
+        "groups": [
+            "Flying"
+        ]
+    },
+    {
+        "dex": 86,
+        "name": "Seel",
+        "groups": [
+            "Water 1",
+            "Field"
+        ]
+    },
+    {
+        "dex": 87,
+        "name": "Dewgong",
+        "groups": [
+            "Water 1",
+            "Field"
+        ]
+    },
+    {
+        "dex": 88,
+        "name": "Grimer",
+        "groups": [
+            "Amorphous"
+        ]
+    },
+    {
+        "dex": 89,
+        "name": "Muk",
+        "groups": [
+            "Amorphous"
+        ]
+    },
+    {
+        "dex": 90,
+        "name": "Shellder",
+        "groups": [
+            "Water 3"
+        ]
+    },
+    {
+        "dex": 91,
+        "name": "Cloyster",
+        "groups": [
+            "Water 3"
+        ]
+    },
+    {
+        "dex": 92,
+        "name": "Gastly",
+        "groups": [
+            "Amorphous"
+        ]
+    },
+    {
+        "dex": 93,
+        "name": "Haunter",
+        "groups": [
+            "Amorphous"
+        ]
+    },
+    {
+        "dex": 94,
+        "name": "Gengar",
+        "groups": [
+            "Amorphous"
+        ]
+    },
+    {
+        "dex": 95,
+        "name": "Onix",
+        "groups": [
+            "Mineral"
+        ]
+    },
+    {
+        "dex": 96,
+        "name": "Drowzee",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 97,
+        "name": "Hypno",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 98,
+        "name": "Krabby",
+        "groups": [
+            "Water 3"
+        ]
+    },
+    {
+        "dex": 99,
+        "name": "Kingler",
+        "groups": [
+            "Water 3"
+        ]
+    },
+    {
+        "dex": 100,
+        "name": "Voltorb",
+        "groups": [
+            "Mineral"
+        ]
+    },
+    {
+        "dex": 101,
+        "name": "Electrode",
+        "groups": [
+            "Mineral"
+        ]
+    },
+    {
+        "dex": 102,
+        "name": "Exeggcute",
+        "groups": [
+            "Grass"
+        ]
+    },
+    {
+        "dex": 103,
+        "name": "Exeggutor",
+        "groups": [
+            "Grass"
+        ]
+    },
+    {
+        "dex": 104,
+        "name": "Cubone",
+        "groups": [
+            "Monster"
+        ]
+    },
+    {
+        "dex": 105,
+        "name": "Marowak",
+        "groups": [
+            "Monster"
+        ]
+    },
+    {
+        "dex": 106,
+        "name": "Hitmonlee",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 107,
+        "name": "Hitmonchan",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 108,
+        "name": "Lickitung",
+        "groups": [
+            "Monster"
+        ]
+    },
+    {
+        "dex": 109,
+        "name": "Koffing",
+        "groups": [
+            "Amorphous"
+        ]
+    },
+    {
+        "dex": 110,
+        "name": "Weezing",
+        "groups": [
+            "Amorphous"
+        ]
+    },
+    {
+        "dex": 111,
+        "name": "Rhyhorn",
+        "groups": [
+            "Monster",
+            "Field"
+        ]
+    },
+    {
+        "dex": 112,
+        "name": "Rhydon",
+        "groups": [
+            "Monster",
+            "Field"
+        ]
+    },
+    {
+        "dex": 113,
+        "name": "Chansey",
+        "groups": [
+            "Fairy"
+        ]
+    },
+    {
+        "dex": 114,
+        "name": "Tangela",
+        "groups": [
+            "Grass"
+        ]
+    },
+    {
+        "dex": 115,
+        "name": "Kangaskhan",
+        "groups": [
+            "Monster"
+        ]
+    },
+    {
+        "dex": 116,
+        "name": "Horsea",
+        "groups": [
+            "Water 1",
+            "Dragon"
+        ]
+    },
+    {
+        "dex": 117,
+        "name": "Seadra",
+        "groups": [
+            "Water 1",
+            "Dragon"
+        ]
+    },
+    {
+        "dex": 118,
+        "name": "Goldeen",
+        "groups": [
+            "Water 2"
+        ]
+    },
+    {
+        "dex": 119,
+        "name": "Seaking",
+        "groups": [
+            "Water 2"
+        ]
+    },
+    {
+        "dex": 120,
+        "name": "Staryu",
+        "groups": [
+            "Water 3"
+        ]
+    },
+    {
+        "dex": 121,
+        "name": "Starmie",
+        "groups": [
+            "Water 3"
+        ]
+    },
+    {
+        "dex": 122,
+        "name": "Mr. Mime",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 123,
+        "name": "Scyther",
+        "groups": [
+            "Bug"
+        ]
+    },
+    {
+        "dex": 124,
+        "name": "Jynx",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 125,
+        "name": "Electabuzz",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 126,
+        "name": "Magmar",
+        "groups": [
+            "Human-Like"
+        ]
+    },
+    {
+        "dex": 127,
+        "name": "Pinsir",
+        "groups": [
+            "Bug"
+        ]
+    },
+    {
+        "dex": 128,
+        "name": "Tauros",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 129,
+        "name": "Magikarp",
+        "groups": [
+            "Water 2",
+            "Dragon"
+        ]
+    },
+    {
+        "dex": 130,
+        "name": "Gyarados",
+        "groups": [
+            "Water 2",
+            "Dragon"
+        ]
+    },
+    {
+        "dex": 131,
+        "name": "Lapras",
+        "groups": [
+            "Monster",
+            "Water 1"
+        ]
+    },
+    {
+        "dex": 132,
+        "name": "Ditto",
+        "groups": [
+            "Ditto"
+        ]
+    },
+    {
+        "dex": 133,
+        "name": "Eevee",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 134,
+        "name": "Vaporeon",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 135,
+        "name": "Jolteon",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 136,
+        "name": "Flareon",
+        "groups": [
+            "Field"
+        ]
+    },
+    {
+        "dex": 137,
+        "name": "Porygon",
+        "groups": [
+            "Mineral"
+        ]
+    },
+    {
+        "dex": 138,
+        "name": "Omanyte",
+        "groups": [
+            "Water 1",
+            "Water 3"
+        ]
+    },
+    {
+        "dex": 139,
+        "name": "Omastar",
+        "groups": [
+            "Water 1",
+            "Water 3"
+        ]
+    },
+    {
+        "dex": 140,
+        "name": "Kabuto",
+        "groups": [
+            "Water 1",
+            "Water 3"
+        ]
+    },
+    {
+        "dex": 141,
+        "name": "Kabutops",
+        "groups": [
+            "Water 1",
+            "Water 3"
+        ]
+    },
+    {
+        "dex": 142,
+        "name": "Aerodactyl",
+        "groups": [
+            "Flying"
+        ]
+    },
+    {
+        "dex": 143,
+        "name": "Snorlax",
+        "groups": [
+            "Monster"
+        ]
+    },
+    {
+        "dex": 144,
+        "name": "Articuno",
+        "groups": [
+            "Undiscovered"
+        ]
+    },
+    {
+        "dex": 145,
+        "name": "Zapdos",
+        "groups": [
+            "Undiscovered"
+        ]
+    },
+    {
+        "dex": 146,
+        "name": "Moltres",
+        "groups": [
+            "Undiscovered"
+        ]
+    },
+    {
+        "dex": 147,
+        "name": "Dratini",
+        "groups": [
+            "Water 1",
+            "Dragon"
+        ]
+    },
+    {
+        "dex": 148,
+        "name": "Dragonair",
+        "groups": [
+            "Water 1",
+            "Dragon"
+        ]
+    },
+    {
+        "dex": 149,
+        "name": "Dragonite",
+        "groups": [
+            "Water 1",
+            "Dragon"
+        ]
+    },
+    {
+        "dex": 150,
+        "name": "Mewtwo",
+        "groups": [
+            "Undiscovered"
+        ]
+    },
+    {
+        "dex": 151,
+        "name": "Mew",
+        "groups": [
+            "Undiscovered"
+        ]
+    }
+]

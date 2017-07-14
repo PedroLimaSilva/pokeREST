@@ -16,7 +16,7 @@ var express = require('express'),
   bodyParser = require('body-parser');
   
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/PokeREST');
+mongoose.connect('mongodb://localhost/PokeREST',{useMongoClient: true});
 /* connect remote 
 mongoose.connect('mongodb://pedrocas403:pokemon@ds155529.mlab.com:55529/pokebreeder',{useMongoClient: true});
 */
