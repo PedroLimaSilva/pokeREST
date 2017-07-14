@@ -12,6 +12,7 @@ var express = require('express'),
   app = express(),
   port = process.env.PORT || 3000,
   mongoose = require('mongoose'),
+  Pokedex = require('./api/pokedex/pokedex.model'),
   Pokemon = require('./api/pokemon/pokemon.model'),
   bodyParser = require('body-parser');
   

@@ -7,7 +7,8 @@ function genRandIVs() {
 var PokemonSchema = new mongoose.Schema({
     dex: {
         type: String,
-        required: 'Kindly enter the pokemon national dex number'
+        required: 'Kindly enter the pokemon national dex number',
+        ref: 'Pokedex'
     },
     nickname: {
         type: String,
@@ -30,8 +31,16 @@ var PokemonSchema = new mongoose.Schema({
         default: 1
     },
     egg_group: {
+        type: [String],
+        default: [""]
+    },
+    exp_group: {
         type: String,
         default: ""
+    },
+    egg_steps:{
+        type: Number,
+        default: 0
     },
     next_lvl: {
         type: Number,

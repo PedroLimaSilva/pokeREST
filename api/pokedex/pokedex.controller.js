@@ -3,15 +3,15 @@
 var mongoose = require('mongoose'),
   Pokedex = mongoose.model('Pokedex');
 
-exports.list_pokedex = function(req, res) {
+exports.get_pokedex = function(req, res) {
   Pokedex.find({}, function(err, pokedex) {
     if (err)
       res.send(err);
-    res.json(pokedex);
+    res.json(pokedex.pokedex);
   });
 };
 
-exports.create_an_entry = function(req, res) {
+exports.publish_pokedex = function(req, res) {
   var new_entry = new Pokedex(req.body);
   new_entry.save(function(err, entry) {
     if (err)
@@ -20,11 +20,11 @@ exports.create_an_entry = function(req, res) {
   });
 };
 
-exports.read_an_entry = function(req, res) {
-  Pokedex.findById(req.params.entryId, function(err, entry) {
+exports.purge_pokedex = function(req, res) {
+  Pokemon.remove({}, function(err, pokemon) {
     if (err)
       res.send(err);
-    res.json(entry);
+    res.json({ message: 'Pokedex successfully deleted' });
   });
 };
 
@@ -39,13 +39,5 @@ exports.update_a_pokemon = function(req, res) {
 */
 
 /*
-exports.delete_a_pokemon = function(req, res) {
-  Pokemon.remove({
-    _id: req.params.pokemonId
-  }, function(err, pokemon) {
-    if (err)
-      res.send(err);
-    res.json({ message: 'Pokemon successfully deleted' });
-  });
-};
+
 */

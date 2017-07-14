@@ -9,4 +9,18 @@ module.exports = function(app) {
     .get(pokemonList.read_a_pokemon)
     .put(pokemonList.update_a_pokemon)
     .delete(pokemonList.delete_a_pokemon);
+
+  // Pokedex Routes
+
+  var pokedex = require('./pokedex/pokedex.controller');
+  app.route('/pokedex')
+    .get(pokedex.get_pokedex)
+    .post(pokedex.publish_pokedex)
+    .delete(pokedex.purge_pokedex);
+/*
+  app.route('/pokedex/:pokemonId')
+    .get(pokemonList.read_a_pokemon)
+    .put(pokemonList.update_a_pokemon)
+    .delete(pokemonList.delete_a_pokemon);
+*/
 };

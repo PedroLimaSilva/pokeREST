@@ -1,58 +1,36 @@
 var mongoose = require('mongoose');
 
-var PokemonSchema = new mongoose.Schema({
+var PokedexSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: 'A pokemon needs an unique name',
+        unique: true,
+        index: true
+    },
     dex: {
         type: String,
-        required: 'Kindly enter the pokemon national dex number'
+        required: 'Kindly enter the pokemon national dex number',
+        index: true,
+        unique: true
     },
     sprites: {
         front_default: String,
     },
-    trainerID: {
+    types: {
+        type:[String],
+        default:[""]
+    },
+    exp_group:{
         type: String,
-        required: 'Please include an Original Trainer ID'
+        required: 'Every pokemon needs an exp group'
+        // ref: 'EXP Group'
     },
-    ownerID: {
-        type: String,
-        default: this.trainerID
+    egg_groups: {
+        type: [String],
+        default: [""]
     },
-    exp: {
-        type: Number,
-        default: 0
-    },
-    lvl:{
-        type: Number,
-        default: 1
-    },
-    egg_group: {
-        type: String,
-        default: ""
-    },
-    next_lvl: {
-        type: Number,
-        default: 0
-    },
-    IVs: {
-        ATK: 0,
-        HP: 0,
-        DEF: 0,
-        SPD: 0,
-        SDE: 0,
-        SAT: 0,
-    },
-    EVs: {
-        ATK: 0,
-        HP: 0,
-        DEF: 0,
-        SPD: 0,
-        SDE: 0,
-        SAT: 0,
-    },
-    created_date: {
-        type: Date,
-        default: Date.now
-    }
+    egg_steps: Number
 });
 
-mongoose.model('Pokemon', PokemonSchema);
-module.exports = mongoose.model('Pokemon');
+mongoose.model('Pokedex', PokedexSchema);
+module.exports = mongoose.model('Pokedex');
