@@ -8,6 +8,7 @@ module.exports = function(app) {
   app.route('/pokemon/:pokemonId')
     .get(pokemonList.read_a_pokemon)
     .put(pokemonList.update_a_pokemon)
+    .patch(pokemonList.update_a_pokemon)
     .delete(pokemonList.delete_a_pokemon);
 
   // Pokedex Routes
