@@ -17,10 +17,11 @@ var express = require('express'),
   bodyParser = require('body-parser');
   
 mongoose.Promise = global.Promise;
+/* connect local
 mongoose.connect('mongodb://localhost/PokeREST',{useMongoClient: true});
-/* connect remote 
+/* connect remote */
 mongoose.connect('mongodb://pedrocas403:pokemon@ds155529.mlab.com:55529/pokebreeder',{useMongoClient: true});
-*/
+
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());

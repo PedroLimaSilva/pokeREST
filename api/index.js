@@ -14,13 +14,12 @@ module.exports = function(app) {
 
   var pokedex = require('./pokedex/pokedex.controller');
   app.route('/pokedex')
-    .get(pokedex.get_pokedex)
-    .post(pokedex.publish_pokedex)
-    .delete(pokedex.purge_pokedex);
+    .get(pokedex.get_pokedex);
+    // .post(pokedex.add_entry);
 /*
-  app.route('/pokedex/:pokemonId')
-    .get(pokemonList.read_a_pokemon)
-    .put(pokemonList.update_a_pokemon)
-    .delete(pokemonList.delete_a_pokemon);
+  app.route('/pokedex/:dexNumber')
+    .get(pokemonList.read_an_entry)
+    .put(pokemonList.update_an_entry)
+    .delete(pokemonList.delete_an_entry);
 */
 };

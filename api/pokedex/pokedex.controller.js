@@ -7,11 +7,11 @@ exports.get_pokedex = function(req, res) {
   Pokedex.find({}, function(err, pokedex) {
     if (err)
       res.send(err);
-    res.json(pokedex.pokedex);
-  });
+    res.json(pokedex);
+  }).sort({ dex: 'asc' });
 };
 
-exports.publish_pokedex = function(req, res) {
+exports.add_entry = function(req, res) {
   var new_entry = new Pokedex(req.body);
   new_entry.save(function(err, entry) {
     if (err)
@@ -20,16 +20,8 @@ exports.publish_pokedex = function(req, res) {
   });
 };
 
-exports.purge_pokedex = function(req, res) {
-  Pokemon.remove({}, function(err, pokemon) {
-    if (err)
-      res.send(err);
-    res.json({ message: 'Pokedex successfully deleted' });
-  });
-};
-
 /*
-exports.update_a_pokemon = function(req, res) {
+exports.update_an_enty = function(req, res) {
   Pokemon.findOneAndUpdate({_id: req.params.pokemonId}, req.body, {new: true}, function(err, pokemon) {
     if (err)
       res.send(err);

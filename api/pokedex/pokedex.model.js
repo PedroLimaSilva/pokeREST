@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 
+
 var PokedexSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -23,7 +24,6 @@ var PokedexSchema = new mongoose.Schema({
     exp_group:{
         type: String,
         required: 'Every pokemon needs an exp group'
-        // ref: 'EXP Group'
     },
     egg_groups: {
         type: [String],

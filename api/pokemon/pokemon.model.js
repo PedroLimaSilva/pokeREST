@@ -1,13 +1,20 @@
-var mongoose = require('mongoose');
+var mongoose = require('mongoose'),
+    Schema = mongoose.Schema;
 
 function genRandIVs() {
     return Math.ceil((Math.random()*15));
+}
+function genGender() {
+    return Math.random() > 0.5 ? 'male' : 'female';
 }
 
 var PokemonSchema = new mongoose.Schema({
     dex: {
         type: String,
-        required: 'Kindly enter the pokemon national dex number',
+        required: 'Kindly enter the pokemon national dex number'
+    },
+    dex_entry: {
+        type: Schema.Types.ObjectId,
         ref: 'Pokedex'
     },
     nickname: {
@@ -22,6 +29,10 @@ var PokemonSchema = new mongoose.Schema({
         type: String,
         default: this.trainerID
     },
+    gender: {
+        type: String,
+        default: genGender
+    },
     exp: {
         type: Number,
         default: 0
@@ -29,18 +40,6 @@ var PokemonSchema = new mongoose.Schema({
     lvl:{
         type: Number,
         default: 1
-    },
-    egg_group: {
-        type: [String],
-        default: [""]
-    },
-    exp_group: {
-        type: String,
-        default: ""
-    },
-    egg_steps:{
-        type: Number,
-        default: 0
     },
     next_lvl: {
         type: Number,

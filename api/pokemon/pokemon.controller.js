@@ -4,11 +4,13 @@ var mongoose = require('mongoose'),
   Pokemon = mongoose.model('Pokemon');
 
 exports.list_all_pokemon = function(req, res) {
-  Pokemon.find({}, function(err, pokemon) {
-    if (err)
-      res.send(err);
-    res.json(pokemon);
-  });
+  Pokemon.find({})
+          .populate('dex_entry', '-dex -_id -sprites')
+          .exec(function(err, pokemon) {
+            if (err)
+              res.send(err);
+            res.json(pokemon);
+          });
 };
 
 exports.create_a_pokemon = function(req, res) {
