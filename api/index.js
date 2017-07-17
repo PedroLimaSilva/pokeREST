@@ -12,7 +12,6 @@ module.exports = function(app) {
     .delete(pokemonList.delete_a_pokemon);
 
   // Pokedex Routes
-
   var pokedex = require('./pokedex/pokedex.controller');
   app.route('/pokedex')
     .get(pokedex.get_pokedex);
@@ -23,4 +22,12 @@ module.exports = function(app) {
     .put(pokemonList.update_an_entry)
     .delete(pokemonList.delete_an_entry);
 */
+
+  // Level Routes
+  var levelTable = require('./level/level.controller');
+  app.route('/level')
+    .get(levelTable.get_levels)
+    .post(levelTable.add_entry);
+  app.route('/level/:level')
+    .get(levelTable.read_a_level);
 };
