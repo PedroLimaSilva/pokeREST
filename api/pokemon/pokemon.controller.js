@@ -5,7 +5,7 @@ var mongoose = require('mongoose'),
 
 exports.list_all_pokemon = function(req, res) {
   Pokemon.find({})
-          .populate('dex_entry', '-dex -_id -sprites')
+          .populate('dex_entry', '-_id -sprites')
           .exec(function(err, pokemon) {
             if (err)
               res.send(err);

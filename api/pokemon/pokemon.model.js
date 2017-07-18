@@ -97,7 +97,7 @@ var PokemonSchema = new mongoose.Schema({
             default: 0
         }
     },
-    created_date: {
+    created_at: {
         type: Date,
         default: Date.now
     }

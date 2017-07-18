@@ -54,4 +54,4 @@ routes(app);
 app.listen(port);
 
 
-console.log('Prime Intranet RESTful API server started on: ' + port);
+console.log('Pokebreeder RESTful API server started on: ' + port);
