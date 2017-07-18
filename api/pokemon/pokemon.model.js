@@ -1,10 +1,10 @@
 var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
-function genRandIVs() {
+exports.genRandIVs = function() {
     return Math.ceil((Math.random()*15));
 }
-function genGender() {
+exports.genGender = function() {
     return Math.random() > 0.5 ? 'male' : 'female';
 }
 
@@ -31,7 +31,7 @@ var PokemonSchema = new mongoose.Schema({
     },
     gender: {
         type: String,
-        default: genGender
+        default: exports.genGender
     },
     exp: {
         type: Number,
@@ -39,7 +39,7 @@ var PokemonSchema = new mongoose.Schema({
     },
     lvl:{
         type: Number,
-        default: 1
+        default: 0
     },
     next_lvl: {
         type: Number,
@@ -48,27 +48,27 @@ var PokemonSchema = new mongoose.Schema({
     IVs: {
         ATK: {
             type: Number,
-            default: genRandIVs
+            default: exports.genRandIVs
         },
         HP: {
             type: Number,
-            default: genRandIVs
+            default: exports.genRandIVs
         },
         DEF: {
             type: Number,
-            default: genRandIVs
+            default: exports.genRandIVs
         },
         SPD: {
             type: Number,
-            default: genRandIVs
+            default: exports.genRandIVs
         },
         SDE: {
             type: Number,
-            default: genRandIVs
+            default: exports.genRandIVs
         },
         SAT: {
             type: Number,
-            default: genRandIVs
+            default: exports.genRandIVs
         }
     },
     EVs: {
