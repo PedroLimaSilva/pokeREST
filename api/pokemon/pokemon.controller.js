@@ -53,17 +53,29 @@ exports.create_a_pokemon = function(req, res) {
 };
 
 exports.read_a_pokemon = function(req, res) {
-  Pokemon.findById(req.params.pokemonId, function(err, pokemon) {
-    if (err)
-      res.send(err);
-    res.json(pokemon);
-  });
+  Pokemon.findById(req.params.pokemonId)
+          .populate('dex_entry', '-_id -sprites')
+          .exec(function(err, pokemon) {
+            if (err)
+              res.send(err);
+            res.json(pokemon);
+          });;
 };
 
 exports.update_a_pokemon = function(req, res) {
   Pokemon.findOneAndUpdate({_id: req.params.pokemonId}, req.body, {new: true}, function(err, pokemon) {
+    if (req.body.dex) {
+      Pokedex.findOne({dex: req.body.dex}, function(err, entry){
+        pokemon['dex_entry'] = entry;
+        pokemon.save(function (err) {
+          if (err)
+            res.send(err);
+        });
+      });
+    }
     if (err)
       res.send(err);
+    console.log(pokemon);
     res.json(pokemon);
   });
 };

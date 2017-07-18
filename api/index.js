@@ -30,4 +30,12 @@ module.exports = function(app) {
     .post(levelTable.add_entry);
   app.route('/level/:level')
     .get(levelTable.read_a_level);
+
+  // Evolution Routes
+  var evolutionTable = require('./evolution/evolution.controller');
+  app.route('/evolution')
+    .get(evolutionTable.get_evolutions)
+    .post(evolutionTable.add_entry);
+  app.route('/evolution/:dex')
+    .get(evolutionTable.read_evolutions);
 };

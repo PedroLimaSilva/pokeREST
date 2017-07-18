@@ -15,6 +15,7 @@ var express = require('express'),
   Pokedex = require('./api/pokedex/pokedex.model'),
   Pokemon = require('./api/pokemon/pokemon.model'),
   Level = require('./api/level/level.model'),
+  Evolution = require('./api/evolution/evolution.model'),
   bodyParser = require('body-parser');
   
 mongoose.Promise = global.Promise;

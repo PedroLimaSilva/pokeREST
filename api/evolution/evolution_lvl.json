@@ -1,0 +1,314 @@
+[
+    {
+        "evolves_from": "001",
+        "evolves_to": "002",
+        "lvl": 16,
+        "condition": ""
+    },
+    {
+        "evolves_from": "002",
+        "evolves_to": "003",
+        "lvl": 32,
+        "condition": ""
+    },
+    {
+        "evolves_from": "004",
+        "evolves_to": "005",
+        "lvl": 16,
+        "condition": ""
+    },
+    {
+        "evolves_from": "005",
+        "evolves_to": "006",
+        "lvl": 36,
+        "condition": ""
+    },
+    {
+        "evolves_from": "007",
+        "evolves_to": "008",
+        "lvl": 16,
+        "condition": ""
+    },
+    {
+        "evolves_from": "008",
+        "evolves_to": "009",
+        "lvl": 36,
+        "condition": ""
+    },
+    {
+        "evolves_from": "010",
+        "evolves_to": "011",
+        "lvl": 7,
+        "condition": ""
+    },
+    {
+        "evolves_from": "011",
+        "evolves_to": "012",
+        "lvl": 10,
+        "condition": ""
+    },
+    {
+        "evolves_from": "013",
+        "evolves_to": "014",
+        "lvl": 7,
+        "condition": ""
+    },
+    {
+        "evolves_from": "014",
+        "evolves_to": "015",
+        "lvl": 10,
+        "condition": ""
+    },
+    {
+        "evolves_from": "016",
+        "evolves_to": "017",
+        "lvl": 18,
+        "condition": ""
+    },
+    {
+        "evolves_from": "017",
+        "evolves_to": "018",
+        "lvl": 36,
+        "condition": ""
+    },
+    {
+        "evolves_from": "019",
+        "evolves_to": "020",
+        "lvl": 20,
+        "condition": ""
+    },
+    {
+        "evolves_from": "021",
+        "evolves_to": "022",
+        "lvl": 20,
+        "condition": ""
+    },
+    {
+        "evolves_from": "023",
+        "evolves_to": "024",
+        "lvl": 22,
+        "condition": ""
+    },
+    {
+        "evolves_from": "027",
+        "evolves_to": "028",
+        "lvl": 22,
+        "condition": ""
+    },
+    {
+        "evolves_from": "029",
+        "evolves_to": "030",
+        "lvl": 16,
+        "condition": ""
+    },
+    {
+        "evolves_from": "032",
+        "evolves_to": "033",
+        "lvl": 16,
+        "condition": ""
+    },
+    {
+        "evolves_from": "041",
+        "evolves_to": "042",
+        "lvl": 22,
+        "condition": ""
+    },
+    {
+        "evolves_from": "043",
+        "evolves_to": "044",
+        "lvl": 21,
+        "condition": ""
+    },
+    {
+        "evolves_from": "046",
+        "evolves_to": "Parasect",
+        "lvl": 24,
+        "condition": ""
+    },
+    {
+        "evolves_from": "048",
+        "evolves_to": "049",
+        "lvl": 31,
+        "condition": ""
+    },
+    {
+        "evolves_from": "050",
+        "evolves_to": "051",
+        "lvl": 26,
+        "condition": ""
+    },
+    {
+        "evolves_from": "052",
+        "evolves_to": "053",
+        "lvl": 28,
+        "condition": ""
+    },
+    {
+        "evolves_from": "054",
+        "evolves_to": "055",
+        "lvl": 33,
+        "condition": ""
+    },
+    {
+        "evolves_from": "056",
+        "evolves_to": "057",
+        "lvl": 28,
+        "condition": ""
+    },
+    {
+        "evolves_from": "060",
+        "evolves_to": "061",
+        "lvl": 25,
+        "condition": ""
+    },
+    {
+        "evolves_from": "063",
+        "evolves_to": "064",
+        "lvl": 16,
+        "condition": ""
+    },
+    {
+        "evolves_from": "066",
+        "evolves_to": "Machoke",
+        "lvl": 28,
+        "condition": ""
+    },
+    {
+        "evolves_from": "069",
+        "evolves_to": "070",
+        "lvl": 21,
+        "condition": ""
+    },
+    {
+        "evolves_from": "072",
+        "evolves_to": "073",
+        "lvl": 30,
+        "condition": ""
+    },
+    {
+        "evolves_from": "074",
+        "evolves_to": "075",
+        "lvl": 25,
+        "condition": ""
+    },
+    {
+        "evolves_from": "077",
+        "evolves_to": "078",
+        "lvl": 40,
+        "condition": ""
+    },
+    {
+        "evolves_from": "079",
+        "evolves_to": "080",
+        "lvl": 37,
+        "condition": ""
+    },
+    {
+        "evolves_from": "081",
+        "evolves_to": "082",
+        "lvl": 30,
+        "condition": ""
+    },
+    {
+        "evolves_from": "084",
+        "evolves_to": "085",
+        "lvl": 31,
+        "condition": ""
+    },
+    {
+        "evolves_from": "086",
+        "evolves_to": "087",
+        "lvl": 34,
+        "condition": ""
+    },
+    {
+        "evolves_from": "088",
+        "evolves_to": "089",
+        "lvl": 38,
+        "condition": ""
+    },
+    {
+        "evolves_from": "092",
+        "evolves_to": "093",
+        "lvl": 25,
+        "condition": ""
+    },
+    {
+        "evolves_from": "096",
+        "evolves_to": "097",
+        "lvl": 26,
+        "condition": ""
+    },
+    {
+        "evolves_from": "098",
+        "evolves_to": "099",
+        "lvl": 28,
+        "condition": ""
+    },
+    {
+        "evolves_from": "100",
+        "evolves_to": "101",
+        "lvl": 30,
+        "condition": ""
+    },
+    {
+        "evolves_from": "104",
+        "evolves_to": "105",
+        "lvl": 28,
+        "condition": ""
+    },
+    {
+        "evolves_from": "109",
+        "evolves_to": "110",
+        "lvl": 35,
+        "condition": ""
+    },
+    {
+        "evolves_from": "111",
+        "evolves_to": "112",
+        "lvl": 42,
+        "condition": ""
+    },
+    {
+        "evolves_from": "116",
+        "evolves_to": "117",
+        "lvl": 32,
+        "condition": ""
+    },
+    {
+        "evolves_from": "118",
+        "evolves_to": "119",
+        "lvl": 33,
+        "condition": ""
+    },
+    {
+        "evolves_from": "129",
+        "evolves_to": "130",
+        "lvl": 20,
+        "condition": ""
+    },
+    {
+        "evolves_from": "138",
+        "evolves_to": "139",
+        "lvl": 40,
+        "condition": ""
+    },
+    {
+        "evolves_from": "140",
+        "evolves_to": "141",
+        "lvl": 40,
+        "condition": ""
+    },
+    {
+        "evolves_from": "147",
+        "evolves_to": "148",
+        "lvl": 30,
+        "condition": ""
+    },
+    {
+        "evolves_from": "148",
+        "evolves_to": "148",
+        "lvl": 55,
+        "condition": ""
+    }
+]
