@@ -38,7 +38,6 @@ exports.create_a_pokemon = function(req, res) {
   }
   Pokedex.findOne({dex: new_pokemon.dex}, function(err, entry){
     new_pokemon['dex_entry'] = entry._id;
-    console.log(new_pokemon);
     if(new_pokemon.lvl==0){
       new_pokemon['exp'] = -entry.egg_steps;
       new_pokemon['lvl'] = 0;
@@ -75,7 +74,6 @@ exports.update_a_pokemon = function(req, res) {
     }
     if (err)
       res.send(err);
-    console.log(pokemon);
     res.json(pokemon);
   });
 };

@@ -38,4 +38,15 @@ module.exports = function(app) {
     .post(evolutionTable.add_entry);
   app.route('/evolution/:dex')
     .get(evolutionTable.read_evolutions);
+
+  // Trainer Routes
+  var trainerTable = require('./trainer/trainer.controller');
+  app.route('/trainers')
+    .get(trainerTable.get_all_trainers);
+  app.route('/trainers/:trainerId')
+    .get(trainerTable.get_trainer)
+    .patch(trainerTable.update_trainer);
+  app.route('/trainers/:trainerId/dex')
+    .get(trainerTable.get_trainer_dex)
+    .post(trainerTable.add_dex);
 };

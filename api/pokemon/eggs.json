@@ -1,0 +1,92 @@
+[
+  {
+    "dex": "007",
+    "dex_entry": "596ce0db229c1e3cdc06f625",
+    "trainerID": "596f641959531dc86e4adea8",
+    "next_lvl": 50,
+    "lvl": 0,
+    "exp": -50,
+    "nickname": "",
+    "created_at": "2017/07/18",
+    "IVs": {
+      "ATK": 7,
+      "HP": 10,
+      "DEF": 15,
+      "SPD": 4,
+      "SDE": 15,
+      "SAT": 10
+    }
+  },
+  {
+    "dex": "025",
+    "dex_entry": "596ce0db229c1e3cdc06f637",
+    "trainerID": "596f641959531dc86e4adea8",
+    "next_lvl": 50,
+    "lvl": 0,
+    "exp": -50,
+    "nickname": "",
+    "created_at": "2017/07/18",
+    "IVs": {
+      "ATK": 10,
+      "HP": 10,
+      "DEF": 15,
+      "SPD": 14,
+      "SDE": 6,
+      "SAT": 15
+    }
+  },
+  {
+    "dex": "004",
+    "dex_entry": "596ce0db229c1e3cdc06f622",
+    "trainerID": "596f641959531dc86e4adea8",
+    "next_lvl": 50,
+    "lvl": 0,
+    "exp": -50,
+    "nickname": "",
+    "created_at": "2017/07/18",
+    "IVs": {
+      "ATK": 15,
+      "HP": 15,
+      "DEF": 15,
+      "SPD": 15,
+      "SDE": 15,
+      "SAT": 15
+    }
+  },
+  {
+    "dex": "004",
+    "dex_entry": "596ce0db229c1e3cdc06f622",
+    "trainerID": "596f641959531dc86e4adea8",
+    "next_lvl": 50,
+    "lvl": 0,
+    "exp": -50,
+    "nickname": "",
+    "created_at": "2017/07/18",
+    "IVs": {
+      "ATK": 15,
+      "HP": 9,
+      "DEF": 15,
+      "SPD": 15,
+      "SDE": 11,
+      "SAT": 15
+    }
+  },
+  {
+    "dex": "001",
+    "dex_entry": "596ce0db229c1e3cdc06f61f",
+    "trainerID": "596f641959531dc86e4adea8",
+    "next_lvl": 50,
+    "lvl": 0,
+    "exp": -50,
+    "nickname": "",
+    "created_at": "2017/07/18",
+    "IVs": {
+      "ATK": 7,
+      "HP": 10,
+      "DEF": 15,
+      "SPD": 10,
+      "SDE": 10,
+      "SAT": 15
+    }
+  }
+]
