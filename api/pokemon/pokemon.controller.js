@@ -16,6 +16,7 @@ function genGender() {
 exports.list_all_pokemon = function(req, res) {
   Pokemon.find({})
           .populate('dex_entry', '-_id -sprites')
+          .populate('mate', '-mate')
           .exec(function(err, pokemon) {
             if (err)
               res.send(err);
@@ -54,6 +55,7 @@ exports.create_a_pokemon = function(req, res) {
 exports.read_a_pokemon = function(req, res) {
   Pokemon.findById(req.params.pokemonId)
           .populate('dex_entry', '-_id -sprites')
+          .populate('mate', '-mate')
           .exec(function(err, pokemon) {
             if (err)
               res.send(err);
@@ -62,20 +64,34 @@ exports.read_a_pokemon = function(req, res) {
 };
 
 exports.update_a_pokemon = function(req, res) {
-  Pokemon.findOneAndUpdate({_id: req.params.pokemonId}, req.body, {new: true}, function(err, pokemon) {
-    if (req.body.dex) {
-      Pokedex.findOne({dex: req.body.dex}, function(err, entry){
-        pokemon['dex_entry'] = entry;
-        pokemon.save(function (err) {
-          if (err)
-            res.send(err);
-        });
+  if (req.body.mate === "remove" ) {
+    Pokemon.findById({_id: req.params.pokemonId}, function(err, pokemon) {
+      pokemon.mate = null;
+      pokemon.save(function (err){
+        if (err){
+          console.log('couldnt set mate to null');
+          res.send(err);
+        }
+        res.json(pokemon);
       });
-    }
-    if (err)
-      res.send(err);
-    res.json(pokemon);
-  });
+    });
+  }
+  else{
+    Pokemon.findOneAndUpdate({_id: req.params.pokemonId}, req.body, {new: true}, function(err, pokemon) {
+      if (req.body.dex) {
+        Pokedex.findOne({dex: req.body.dex}, function(err, entry){
+          pokemon['dex_entry'] = entry;
+          pokemon.save(function (err) {
+            if (err)
+              res.send(err);
+          });
+        });
+      }
+      if (err)
+        res.send(err);
+      res.json(pokemon);
+    });
+  }
 };
 
 exports.delete_a_pokemon = function(req, res) {

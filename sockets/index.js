@@ -14,3 +14,5 @@ io.on('connection', (socket) => {
     io.emit('message', {type:'new-message', text: message});    
   });
 });
+
+module.exports = io;

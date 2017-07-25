@@ -54,10 +54,10 @@ app.use(function (req, res, next) {
 var routes = require('./api/index');
 routes(app);
 
-
+/*
 io.on('connection', (socket) => {
   console.log('user connected');
-  socket.emit('message',{type:'welcome-message', text: 'Welcome to the chat'} );
+  //io.emit('message',{type:'welcome-message', text: 'Welcome to the chat'} );
   
   socket.on('disconnect', function(){
     console.log('user disconnected');
@@ -67,6 +67,7 @@ io.on('connection', (socket) => {
     io.emit('message', {type:'new-message', text: message});    
   });
 });
+*/
 
 http.listen(port,
   () => console.log('socket open on: ' + port),

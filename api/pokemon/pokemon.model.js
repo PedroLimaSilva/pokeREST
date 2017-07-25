@@ -45,6 +45,18 @@ var PokemonSchema = new mongoose.Schema({
         type: Number,
         default: 0
     },
+    mate: {
+        type: Schema.Types.ObjectId,
+        ref: 'Pokemon'
+    },
+    egg: {
+        type: Schema.Types.ObjectId,
+        ref: 'Pokemon'
+    },
+    clickers: {
+        type: [Schema.Types.ObjectId],
+        ref: 'Pokemon'
+    },
     IVs: {
         ATK: {
             type: Number,
