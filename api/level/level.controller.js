@@ -21,7 +21,7 @@ exports.add_entry = function(req, res) {
 };
 
 exports.read_a_level = function(req, res) {
-  LevelTable.find({level: req.params.level}, function(err, level) {
+  LevelTable.findOne({level: req.params.level}, function(err, level) {
     if (err)
       res.send(err);
     res.json(level);
