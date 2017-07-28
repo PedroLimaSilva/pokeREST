@@ -10,8 +10,6 @@ var server = app.listen(port, function() {
 
 var express = require('express'),
   app = express(),
-  http = require('http').Server(app),
-  io = require('socket.io')(http),
   port = process.env.PORT || 3000,
   mongoose = require('mongoose'),
   Pokedex = require('./api/pokedex/pokedex.model'),
@@ -54,27 +52,8 @@ app.use(function (req, res, next) {
 var routes = require('./api/index');
 routes(app);
 
-/*
-io.on('connection', (socket) => {
-  console.log('user connected');
-  //io.emit('message',{type:'welcome-message', text: 'Welcome to the chat'} );
-  
-  socket.on('disconnect', function(){
-    console.log('user disconnected');
-  });
-  
-  socket.on('add-message', (message) => {
-    io.emit('message', {type:'new-message', text: message});    
-  });
-});
-*/
 
-http.listen(port,
-  () => console.log('socket open on: ' + port),
-  error => console.log(error)
-);
-
-//app.listen(port);
+app.listen(port);
 
 
 console.log('Pokebreeder RESTful API server started on: ' + port);
