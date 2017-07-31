@@ -54,8 +54,8 @@
     }
   },
   {
-    "dex": "004",
-    "dex_entry": "596ce0db229c1e3cdc06f622",
+    "dex": "016",
+    "dex_entry": "596ce0db229c1e3cdc06f62e",
     "trainerID": "596f641959531dc86e4adea8",
     "next_lvl": 50,
     "lvl": 0,
@@ -69,6 +69,24 @@
       "SPD": 15,
       "SDE": 11,
       "SAT": 15
+    }
+  },
+  {
+    "dex": "010",
+    "dex_entry": "596ce0db229c1e3cdc06f628",
+    "trainerID": "596f641959531dc86e4adea8",
+    "next_lvl": 50,
+    "lvl": 0,
+    "exp": -50,
+    "nickname": "",
+    "created_at": "2017/07/18",
+    "IVs": {
+      "ATK": 7,
+      "HP": 10,
+      "DEF": 15,
+      "SPD": 4,
+      "SDE": 15,
+      "SAT": 10
     }
   },
   {
