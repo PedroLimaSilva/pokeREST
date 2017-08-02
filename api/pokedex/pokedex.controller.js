@@ -20,6 +20,14 @@ exports.add_entry = function(req, res) {
   });
 };
 
+exports.get_entry = function(req, res) {
+  Pokedex.findOne({ dex: req.params.dexNumber }, function (err, entry) {
+    if (err)
+      res.send(err);
+    res.json(entry);
+  });
+};
+
 /*
 exports.update_an_enty = function(req, res) {
   Pokemon.findOneAndUpdate({_id: req.params.pokemonId}, req.body, {new: true}, function(err, pokemon) {
