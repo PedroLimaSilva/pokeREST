@@ -1,7 +1,15 @@
 [
     {
         "name": "Explore Ruins",
-        "duration": 10, //duration in minutes
+        "duration": 14,
+        "recTypes": [
+            "Water"
+        ],
+        "avoidTypes": [
+            "Grass",
+            "Bug"
+        ],
+        "lvl": 10,
         "rewards": {
             "exp": 1000,
             "eggs": [
@@ -42,7 +50,15 @@
     },
     {
         "name": "Explore Beach",
-        "duration": 10, //duration in minutes
+        "duration": 10,
+        "recTypes": [
+            "Grass",
+            "Electric"
+        ],
+        "avoidTypes": [
+            "Fire"
+        ],
+        "lvl": 15,
         "rewards": {
             "exp": 1000,
             "eggs": [
@@ -87,7 +103,15 @@
     },
     {
         "name": "Explore Forest",
-        "duration": 10, //duration in minutes
+        "duration": 10,
+        "recTypes": [
+            "Fire",
+            "Ice"
+        ],
+        "avoidTypes": [
+            "Water"
+        ],
+        "lvl": 5,
         "rewards": {
             "exp": 1000,
             "eggs": [

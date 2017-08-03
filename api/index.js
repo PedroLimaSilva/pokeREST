@@ -49,4 +49,11 @@ module.exports = function(app) {
   app.route('/trainers/:trainerId/dex')
     .get(trainerTable.get_trainer_dex)
     .post(trainerTable.add_dex);
+
+  var adventureList = require('./adventures/adventure.controller');
+  app.route('/adventures')
+     .get(adventureList.get_adventures)
+     .post(adventureList.add_adventure);
+  app.route('/adventures/:id')
+     .get(adventureList.get_adventure);
 };

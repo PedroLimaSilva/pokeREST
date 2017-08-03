@@ -17,6 +17,7 @@ var express = require('express'),
   Level = require('./api/level/level.model'),
   Evolution = require('./api/evolution/evolution.model'),
   Trainer = require('./api/trainer/trainer.model'),
+  Adventure = require('./api/adventures/adventure.model'),
   bodyParser = require('body-parser');
   
 mongoose.Promise = global.Promise;
