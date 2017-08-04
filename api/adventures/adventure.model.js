@@ -1,4 +1,5 @@
-var mongoose = require('mongoose');
+var mongoose = require('mongoose'),
+    Schema = mongoose.Schema;
 
 var AdventureSchema = new mongoose.Schema({
     name: {
@@ -8,6 +9,16 @@ var AdventureSchema = new mongoose.Schema({
     duration: {
         type: Number,
         required: 'Please include the adventure\'s duration in minutes'
+    },
+    assignedTo: {
+        type: Schema.Types.ObjectId,
+        ref: 'Pokemon'
+    },
+    completedOn: Date,
+    successful: Boolean,
+    claimed: {
+        type: Boolean,
+        default: false
     },
     recTypes: [String],
     avoidTypes: [String],

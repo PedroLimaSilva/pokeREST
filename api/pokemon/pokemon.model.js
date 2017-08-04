@@ -49,14 +49,7 @@ var PokemonSchema = new mongoose.Schema({
         type: Schema.Types.ObjectId,
         ref: 'Pokemon'
     },
-    egg: {
-        type: Schema.Types.ObjectId,
-        ref: 'Pokemon'
-    },
-    clickers: {
-        type: [Schema.Types.ObjectId],
-        ref: 'Pokemon'
-    },
+    busyUntil: Date,
     IVs: {
         ATK: {
             type: Number,
