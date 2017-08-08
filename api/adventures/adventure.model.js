@@ -37,7 +37,8 @@ var AdventureSchema = new mongoose.Schema({
                 }
             }]
         }
-    }
+    },
+    claimedRewards:[String]
 });
 
 mongoose.model('Adventure', AdventureSchema);

@@ -56,5 +56,5 @@ module.exports = function(app) {
      .post(adventureList.add_adventure);
   app.route('/adventures/:id')
      .get(adventureList.get_adventure)
-     .patch(adventureList.assign);
+     .patch(adventureList.updateAdventure);
 };
