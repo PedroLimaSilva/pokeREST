@@ -1,5 +1,14 @@
 'use strict';
+
 module.exports = function(app) {
+
+  app.route('/')
+    .get(
+      (req, res) => {
+        res.sendfile('index.html', { root: __dirname + "" });
+      }
+    )
+
   // Pokemon Routes
   var pokemonList = require('./pokemon/pokemon.controller');
   app.route('/pokemon')
